@@ -29,13 +29,14 @@ h1, h2, p {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    min-height: calc( 100vh - ( 69px + 50px ) );
+    min-height: calc( 100vh - ( 69px + 50px ) ); /* El tamaño del alto de la ventana, menos los altos del encabezado y el pie de página */
 }
 header {
     background-color: #CDDC39;
 }
 .principal-content {
     background-color: #B2DFDB;
+    flex-grow: 1;
     margin: 0 auto;
     max-width: 1024px;
 }
