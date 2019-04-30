@@ -44,4 +44,9 @@ header {
 .footer {
     background-color: #212121;
     color: white;
+
+    /* Forma antigua antes de flexbox (ya no recomendada) */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
