@@ -24,6 +24,13 @@ h1, h2, p {
 .container .principal-content {
     padding: 1rem;
 }
+.container {
+    border: 2px dotted orange;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: calc( 100vh - ( 69px + 50px ) );
+}
 header {
     background-color: #CDDC39;
 }
@@ -44,9 +51,4 @@ header {
 .footer {
     background-color: #212121;
     color: white;
-
-    /* Forma antigua antes de flexbox (ya no recomendada) */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
