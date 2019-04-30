@@ -14,4 +14,34 @@ body {
     font-family: 'Monserrat', sans-serif;
     min-height: 100%;
 }
-    
+
+h1, h2, p {
+    margin: 0;
+}
+
+.page > .header,
+.page > .footer,
+.container .principal-content {
+    padding: 1rem;
+}
+header {
+    background-color: #CDDC39;
+}
+.principal-content {
+    background-color: #B2DFDB;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.principal-content h2 {
+    margin: 1rem 0;
+}
+.principal-content .outstanding-image {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1rem 0;
+    width: 55%;
+}    
+.footer {
+    background-color: #212121;
+    color: white;
+}
